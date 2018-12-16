@@ -178,7 +178,8 @@ For automatic signing, where provisioning profiles are managed automatically by 
             "developmentTeam": "FG35JLLMXX4A",
             "packageType": "development",
             "automaticProvisioning": true,
-            "buildFlag": [
+            "buildFlag": [ 
+            
                 "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
                 "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
                 "LD_RUNPATH_SEARCH_PATHS = \"@executable_path/Frameworks\""
